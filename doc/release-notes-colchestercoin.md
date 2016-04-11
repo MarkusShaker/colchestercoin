@@ -8,7 +8,7 @@ recommended to upgrade to this version as soon as possible.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/colchestercoin-project/colchestercoin/issues>
+  <https://github.com/jasonrleonard/colchestercoin/issues>
 
 Upgrading and downgrading
 =========================
