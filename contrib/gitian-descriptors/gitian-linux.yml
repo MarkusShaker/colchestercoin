@@ -2,7 +2,7 @@
 name: "colchestercoin-linux-0.10"
 enable_cache: true
 suites:
-- "trusty"
+- "precise"
 architectures:
 - "amd64"
 packages: 
