@@ -261,7 +261,7 @@ public:
         nMaxTipAge = 24 * 60 * 60;
         genesis.nTime = 1296688602;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 0;
+        genesis.nNonce = 1;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 19444;
         assert(hashGenesisBlock == uint256("0x1efa6967fdaeb4fd8167ba2a84e0543e76cfdc1f30df2eb13a6af4f95623867a"));
