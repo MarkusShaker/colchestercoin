@@ -1245,11 +1245,11 @@ CAmount GetBlockValue(int nHeight, const CAmount& nFees)
     CAmount nSubsidy = 100000000 * COIN;
     if (nHeight > 1)
         {
-            return 0;
+            return nFees;
         }
     else
         {
-            return nSubsidy;
+            return nSubsidy + nFees;
         }
 }
 
