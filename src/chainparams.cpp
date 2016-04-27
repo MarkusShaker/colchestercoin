@@ -58,7 +58,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1460409903, // * UNIX timestamp of last checkpoint block
+        0, // * UNIX timestamp of last checkpoint block
         0,   // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
         5500.0     // * estimated number of transactions per day after checkpoint
@@ -159,7 +159,7 @@ genesis hash: 6989fa140ccf5b8be8a699fa2edb7618ca1a66cfd11367b65df078f438678732
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
         fRequireRPCPassword = true;
-        fMiningRequiresPeers = true;
+        fMiningRequiresPeers = false;
         fAllowMinDifficultyBlocks = false;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
